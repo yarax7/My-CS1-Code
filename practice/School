@@ -1,0 +1,4 @@
+public class School {
+	private String schoolName="UTEP";
+	private int studentSum=5000;
+	private     

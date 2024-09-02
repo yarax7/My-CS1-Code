@@ -1,0 +1,2 @@
+1. For the average question, I feel that a for loop is a better fit because we know how many times we want the loop to run, while with while loops we typically don't.
+2. For the word count question I feel that a while loop is a better fit because we usually dont know how many times the loop will run.

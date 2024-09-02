@@ -1,0 +1,87 @@
+Problem 1
+ int total = 0;
+  int input = 0;
+  while( input >= 0){
+    System.out.println("Enter an integer or negative value to quit");
+      input = scanner.nextInt();
+      if(input > 0){
+      total = total + input;
+    }
+    } 
+      System.out.println(total);
+  **********************************************
+  Problem 2
+      for (int i = lowerBound; i <=upperBound; i++) {
+      sum = sum + i;
+    }
+  ***********************************************
+  Problem 3
+      int factorial = n;
+    for (int i = 1; i < n; i++) {
+      factorial = factorial * i;
+    }
+****************************************************
+Problem 4..? !!!!!!!!!!!!!!!!!!!!!!!
+int piApprox = 0;
+    for(int i = 1; i <= n; i=i+2){
+      piApprox = piApprox + (4*(1/i));
+________________________________________________________
+
+ int n = scanner.nextInt();
+    double piApprox = 0;
+    double piApprox2 = 0;
+    for(double i = 1; i <= n; i=i+4){
+      piApprox = piApprox + (4*(1/i));
+      System.out.println(piApprox);
+    }
+    for(double y = 3; y <= n; y=y+4){
+      piApprox2 = piApprox2 - (4*(1/y));
+      System.out.println(piApprox2);
+        }
+    piApprox = piApprox + piApprox2;
+    System.out.print(piApprox);
+    ___________________________________________________________________
+    #5
+     String n = "";
+    while(n !="END"){
+      System.out.println("Name?");
+      n = scanner.next();
+    ______________________________________________________________
+    #6
+    int lowerBound = scanner.nextInt();
+    int upperBound = scanner.nextInt();
+    for (int i = lowerBound; i <=upperBound; i++){
+      if ( i % 3 == 0){
+        System.out.print(" UTEP ");
+      } else if ( i % 5 == 0){
+        System.out.print(" Miners ");
+      } else if ( i % 7 == 0){
+        System.out.println(" " + i + " ");
+      } else {
+        System.out.print(" " + i + " " );
+
+    _________________________________________________________________
+    #7
+    int g = 0;
+    int sum = 0;
+    int count = 0;
+    while(g >= 0){
+      System.out.println("Grade?");
+      g = scanner.nextInt();
+      if (g >= 0) {
+        sum = sum + g;
+        count++;}
+      }
+      double average = (sum / count);
+        System.out.print(average);
+      }
+      _____________________________________________
+      #8
+      int rev = 0;
+    int num = scanner.nextInt();
+    while(num != 0){
+      rev = rev *10 + num % 10;
+      num = num / 10;
+    }
+    System.out.print(rev);
+

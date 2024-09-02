@@ -1,0 +1,11 @@
+public class Main{
+  public static void main(String[] args){
+
+    Movie myMovie = new Movie();
+    myMovie.setTitle("Attack On Titan");
+    myMovie.setRunTime("1.4");
+    myMovie.setYear(2013);
+
+    printInfo(myMovie);
+  }
+}
